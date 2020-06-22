@@ -19,5 +19,5 @@ git filter-branch -f --env-filter \
     GIT_AUTHOR_EMAIL='your@email.com'; \
     GIT_COMMITTER_NAME='Your Name'; \
     GIT_COMMITTER_EMAIL='your@email.com';" \
-    HEAD;
+    HEAD
 ```
