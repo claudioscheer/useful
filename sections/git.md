@@ -14,3 +14,8 @@ foo@bar:~$ git filter-branch -f --env-filter \
     GIT_COMMITTER_EMAIL='your@email.com';" \
     HEAD
 ```
+
+#### Create branch from commit
+```console
+foo@bar:~$ git checkout -b branch-name <sha1-of-commit>
+```
