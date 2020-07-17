@@ -15,3 +15,11 @@ for i in "${list[@]}"; do
     echo $i
 done
 ```
+
+#### For in list with `seq`
+```bash
+list=($(seq 1 2 12))
+for i in "${list[@]}"; do
+    echo $i
+done
+```
