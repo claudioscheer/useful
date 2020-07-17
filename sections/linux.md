@@ -43,3 +43,8 @@ foo@bar:~$ tar -xzvf file.tar.gz -C /output/path
 ```console
 foo@bar:~$ tar -xjvf file.tar.bz2 -C /output/path
 ```
+
+#### Change extension for files
+```console
+foo@bar:~$ find . -name *.ext1 -exec rename "s/\.ext1$/.ext2/" "{}" \;
+```
