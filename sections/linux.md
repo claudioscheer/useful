@@ -28,3 +28,18 @@ foo@bar:~$ find . -type f -newermt "2020-07-01 00:00:00" ! -newermt "2020-07-02 
 ```console
 foo@bar:~$ find . -type f -mmin -15
 ```
+
+#### Extract `.tar`
+```console
+foo@bar:~$ tar -xvf file.tar -C /output/path
+```
+
+#### Extract `.tar.gz`
+```console
+foo@bar:~$ tar -xzvf file.tar.gz -C /output/path
+```
+
+#### Extract `.tar.bz2`
+```console
+foo@bar:~$ tar -xjvf file.tar.bz2 -C /output/path
+```
