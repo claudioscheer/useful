@@ -14,7 +14,7 @@
 
 #### Moving around
 
-- ***** - go to the next occurence of the word under the cursor;
+- **\*** - go to the next occurence of the word under the cursor;
 - **#** - go to the previous occurence of the word under the cursor;
 - **e** - go to the end of the word;
 - **w** - go to next word;
