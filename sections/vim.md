@@ -108,3 +108,11 @@
 - **q[character]** - stop recording macro and store on [character];
 - **@[character]** - run macro stored on [character];
 - **:norm! @[character]** - run macro stored on [character] on all lines selected;
+
+
+#### Terminal
+
+- **:term** - open horizontal terminal;
+- **:vert :term** - open vertical terminal;
+- **Ctrl-\, n** - enable normal mode on terminal;
+- **i** - enable terminal mode when on normal mode;
