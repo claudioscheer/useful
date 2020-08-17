@@ -11,7 +11,7 @@
 - **:r [file]** - insert [file] below the cursor;
 - **:r ![command]** - insert [command] output below the cursor;
 - **u** - undo changes;
-- **Ctrl-R** - redo changes;
+- **Ctrl-r** - redo changes;
 
 
 #### Moving around
@@ -33,15 +33,15 @@
 - **'[character]** - go to the beginning of the file of mark [character];
 - **`[character]** - go to the cursor positon of mark [character];
 - **Ctrl-O** - go to the previous location;
-- **Ctrl-I** - go to the next location;
+- **Ctrl-i** - go to the next location;
 
 
 #### Scrolling
 
-- **Ctrl-E** - scroll lines downwards;
-- **Ctrl-Y** - scroll lines upwards;
-- **Ctrl-D** - scroll lines and cursor downwards following the 'scroll' option;
-- **Ctrl-U** - scroll lines and cursor upwards following the 'scroll' option;
+- **Ctrl-e** - scroll lines downwards;
+- **Ctrl-y** - scroll lines upwards;
+- **Ctrl-d** - scroll lines and cursor downwards;
+- **Ctrl-u** - scroll lines and cursor upwards;
 - **}** - go to the next paragraph;
 - **{** - go to the previous paragraph;
 - **)** - go to the next sentence;
@@ -63,17 +63,17 @@
 
 - **:split [file]** - horizontal split the [file];
 - **:vsplit [file]** - vertical split the [file];
-- **Ctrl-W, n | :new** - create new horizontal split;
+- **Ctrl-w, n | :new** - create new horizontal split;
 - **:vnew** - create new vertical split;
-- **Ctrl-W, S** - create horizontal split of the current window;
-- **Ctrl-W, v** - create vertical split of the current window;
-- **Ctrl-W, Q** - close window;
-- **Ctrl-W, W** - change cycle through windows;
-- **Ctrl-W, O** - show only the current window on the screen;
-- **Ctrl-W, R** - rotate windows upwards/downwards;
-- **Ctrl-W, h j k l** - move to window;
-- **Ctrl-W, H J K L** - move window;
-- **Ctrl-W, T** - move current window to a new tab; 
+- **Ctrl-w, s** - create horizontal split of the current window;
+- **Ctrl-w, v** - create vertical split of the current window;
+- **Ctrl-w, q** - close window;
+- **Ctrl-w, w** - change cycle through windows;
+- **Ctrl-w, o** - show only the current window on the screen;
+- **Ctrl-w, r** - rotate windows upwards/downwards;
+- **Ctrl-w, h | j | k | l** - move to window;
+- **Ctrl-w, H | J | K | L** - move window;
+- **Ctrl-w, T** - move current window to a new tab;
 
 
 #### Buffers
@@ -112,7 +112,7 @@
 
 #### Terminal
 
-- **:term** - open horizontal terminal;
+- **:terminal** - open horizontal terminal;
 - **:vert :term** - open vertical terminal;
-- **Ctrl-\, n** - enable normal mode on terminal;
+- **Ctrl-\, Ctrl-n** - enable normal mode on terminal;
 - **i** - enable terminal mode when on normal mode;
