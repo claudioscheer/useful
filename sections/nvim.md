@@ -28,7 +28,7 @@
 - **\*** - go to the next occurence of the word under the cursor;
 - **#** - go to the previous occurence of the word under the cursor;
 - **e** - go to the next end of word;
-- **ge** - go to the previous end of word;
+- **gE** - go to the previous end of word;
 - **w** - go to next word;
 - **b** - go to previous word;
 - **$** - go to the end of the line;
