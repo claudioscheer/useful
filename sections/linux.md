@@ -29,6 +29,11 @@ foo@bar:~$ find . -type f -newermt "2020-07-01 00:00:00" ! -newermt "2020-07-02 
 foo@bar:~$ find . -type f -mmin -15
 ```
 
+#### Create `.tar`
+```console
+foo@bar:~$ tar -cvf file.tar /dirname
+```
+
 #### Extract `.tar`
 ```console
 foo@bar:~$ tar -xvf file.tar -C /output/path
