@@ -34,10 +34,10 @@
 - **$** - go to the end of the line;
 - **0** - go to the beginning of the line;
 - **%** - go to corresponding item ({ => }, ( => ));
-- **f [character]** - go to the next occurence of the [character];
-- **F [character]** - go to the previous occurence of the [character];
-- **t [character]** - go to the next occurence of the [character], but one character before;
-- **T [character]** - go to the previous occurence of the [character], but one character before;
+- **f[character]** - go to the next occurence of the [character];
+- **F[character]** - go to the previous occurence of the [character];
+- **t[character]** - go to the next occurence of the [character], but one character before;
+- **T[character]** - go to the previous occurence of the [character], but one character before;
 - **;** - repeat previous f or t command;
 - **m[character]** - mark cursor to [character];
 - **'[character]** - go to the beginning of the file of mark [character];
@@ -128,3 +128,12 @@
 - **:vert :term** - open vertical terminal;
 - **Ctrl-\, Ctrl-n** - enable normal mode on terminal;
 - **i** - enable terminal mode when on normal mode;
+
+
+#### Spell checking
+
+- **[s** - go to next error;
+- **]s** - go to previous error;
+- **z=** - suggest a word;
+- **zg** - add word to dictionary;
+- **zw** - mark word as incorrect;
