@@ -1,5 +1,20 @@
 # Linux
 
+#### List all processes running
+```console
+foo@bar:~$ ps S
+```
+
+#### List processes for current session
+```console
+foo@bar:~$ jobs -l
+```
+
+#### Move process from background to foreground
+```console
+foo@bar:~$ fg % [job-id or job-index]
+```
+
 #### Burn ISO to USB
 ```console
 foo@bar:~$ sudo dd if=file.iso of=/dev/sdc bs=4M
@@ -52,4 +67,24 @@ foo@bar:~$ tar -xjvf file.tar.bz2 -C /output/path
 #### Change extension for files
 ```console
 foo@bar:~$ find . -name *.ext1 -exec rename "s/\.ext1$/.ext2/" "{}" \;
+```
+
+### Generate RSA private key
+```console
+foo@bar:~$ openssl genrsa -out key.pem
+```
+
+### Generate Certificate Signing Request (CSR)
+```console
+foo@bar:~$ openssl req -out key.csr -key key.pem -new
+```
+
+### Generate certificate
+```console
+foo@bar:~$ openssl x509 -req -in key.csr -signkey key.pem -out key.crt
+```
+
+### Generate .p12 certificate
+```console
+foo@bar:~$ openssl pkcs12 -export -in key.crt -inkey key.pem -out cert.p12
 ```
