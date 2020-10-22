@@ -23,3 +23,9 @@ for i in "${list[@]}"; do
     echo $i
 done
 ```
+
+
+#### Get path up to the script file
+```bash
+script_dir=$(dirname "$0")
+```
