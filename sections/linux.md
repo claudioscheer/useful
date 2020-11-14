@@ -88,3 +88,10 @@ foo@bar:~$ openssl x509 -req -in key.csr -signkey key.pem -out key.crt
 ```console
 foo@bar:~$ openssl pkcs12 -export -in key.crt -inkey key.pem -out cert.p12
 ```
+
+### Setup Wacom tablet ([tutorial](https://github.com/linuxwacom/xf86-input-wacom/wiki/Dual-and-Multi-Monitor-Set-Up-II))
+```console
+foo@bar:~$ xrandr
+foo@bar:~$ xsetwacom --list
+foo@bar:~$ xsetwacom set "Wacom One by Wacom S Pen stylus" maptooutput 1920x1080+1920+0
+```
